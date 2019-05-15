@@ -32,13 +32,19 @@
         <a href="javascript:;" class="flash-sale">限时抢购</a>
         <a href="javascript:;" class="flash-in">星品驾到</a>
         <div class="shop">
-            <a href="javascript:;"><img src="/images/shop.png" ></a>
+            <a href="/html/cart.html"><img src="/images/shop.png" ></a>
+            <span class="cart-news" id="car-num">0</span>
         </div>
         <!-- 搜索框 -->
         <div class="search">
             <a href="javascript:;"><img src="/images/search.png" ></a>
             <div class="search-input">
-                <input type="text" placeholder="搜一搜">
+                <input type="text" id="search-input" placeholder="有品购物节 爆款最高直降500">
+                <style type="text/css">
+                    input::-webkit-input-placeholder{
+                    color: #ccc;
+                    }
+                </style>
             </div>
         </div>
     </div>

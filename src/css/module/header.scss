@@ -26,6 +26,7 @@ header{
                     .xia{margin-left: 10px; margin-right: 20px;}
                     .down{
                         margin-right: 8px;
+                        vertical-align: middle;
                     }
                     .line{
                         margin-left: 13px;
@@ -93,6 +94,20 @@ header{
                 width: 18px;
                 height: 18px;
                 margin: 25px 12px 10px 25px;
+                position: relative;
+                .cart-news{
+                    position: absolute;
+                    right: -15px;
+                    top: -10px;
+                    width: 21px;
+                    border-radius: 8px;
+                    line-height: 17px;
+                    display: block;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 12px;
+                    background-color: #c00000;
+                }
             }
             .search{
                 width: 280px;
@@ -114,6 +129,7 @@ header{
                         width: 245px;
                         height: 32px;
                         border: none;
+                        border-bottom: 1px solid #e7e7e7;
                         color: #333;
                         font-size: 14px;
                         outline: 0;

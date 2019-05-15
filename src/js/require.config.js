@@ -3,6 +3,25 @@ require.config({
     paths:{
         "jquery":"libs/jquery/jquery-3.2.1",
         "header":"js/module/header",
-        "footer":"js/module/footer"
+        "footer":"js/module/footer",
+        "detail":"js/detail",
+        "cart":"js/cart",
+        "url":"js/module/url",
+        "template":"libs/art-template/template-web",
+        "zoom": "libs/jquery-plugins/jquery.elevateZoom-3.0.8.min",
+        "swiper":"/libs/swiper/js/swiper",
+        "fly":"libs/jquery-plugins/jquery.fly",
+        "cookie":"/libs/jquery-plugins/jquery.cookie"
+    },
+    shim:{
+        "zoom":{
+            deps:['jquery']
+        },
+        "fly":{
+            deps:['jquery']
+        },
+        "cookie":{
+            deps:['jquery']
+        }
     }
 })

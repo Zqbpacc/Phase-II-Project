@@ -56,29 +56,6 @@ main{
                     z-index: 3;
                     display: flex;
                     box-sizing: content-box;
-                    transform: translate3d(0px, 0px, 0px);
-                    // transition-duration: 800ms;
-                    animation: play 10s infinite;
-
-                    @keyframes play{
-                        0%{
-                            transform:translateX(0px);
-                        }
-                        25%{
-                            transform:translateX(-859px);
-                        }
-                        50%{
-                            transform:translateX(-1718px);
-                        }
-                        75%{
-                            transform:translateX(-2577px)
-                        }
-                        100%{
-                            transform:translateX(-3436px)
-                        }
-                        
-                    }
-        
                     .banner-slide img{
                         height: 358px;
                         vertical-align: middle;

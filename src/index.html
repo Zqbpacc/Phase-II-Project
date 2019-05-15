@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>首页-小米有品</title>
+    <link rel="stylesheet" href="/libs/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
@@ -62,19 +63,24 @@
                     </li>
                 </ul>
             </div>
+            <!-- 轮播图 -->
             <div class="banner">
-                <div class="banner-container">
-                    <div class="banner-wrapper">
-                        <div class="banner-slide"><img src="/images/1.jpg"></div>
-                        <div class="banner-slide"><img src="/images/2.jpg"></div>
-                        <div class="banner-slide"><img src="/images/3.jpg"></div>
-                        <div class="banner-slide"><img src="/images/4.jpg"></div>
+                <div class="banner-container swiper-container">
+                    <div class="banner-wrapper swiper-wrapper">
+                        <div class="banner-slide swiper-slide"><img src="/images/1.jpg"></div>
+                        <div class="banner-slide swiper-slide"><img src="/images/2.jpg"></div>
+                        <div class="banner-slide swiper-slide"><img src="/images/3.jpg"></div>
+                        <div class="banner-slide swiper-slide"><img src="/images/4.jpg"></div>
                     </div>
-                    <!--分页器 -->
-                    <div class="banner-pagination"></div>
+                    <!-- 前后切换按钮 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <!-- 分页器 -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
+        <!-- 商品列表 -->
         <div class="list">
            <ul>
                 <li>
@@ -99,6 +105,7 @@
                 </li>
             </ul> 
         </div>
+        <!-- 每日新品 -->
         <div class="new">
             <div class="title">
                 <h2>每日新品<span>每天10点 惊喜不断</span></h2>
@@ -109,7 +116,7 @@
             </div>
             <div class="list-container">
                 <div class="list-box">
-                    <a href="javascript:;"><img src="/images/list1.jpg" alt=""></a>
+                    <a href="/html/detail.html"><img src="/images/list1.jpg" alt=""></a>
                     <div class="common-box">
                         <p class="info" title="谢霆锋亲自研发的风味粽子礼盒600g（6粒）">谢霆锋亲自研发的风味粽子礼...</p>
                         <p class="desc" title="谢霆锋亲自研发  包你粽意 粽香端午礼盒">谢霆锋亲自研发  包你粽意 粽...</p>
@@ -119,7 +126,7 @@
                     </div>
                 </div>
                 <div class="list-box">
-                    <a href="javascript:;"><img src="/images/list2.jpg" alt=""></a>
+                    <a href="/html/detail.html"><img src="/images/list2.jpg" alt=""></a>
                     <div class="common-box">
                         <p class="info" title="男士工装针织短裤">男士工装针织短裤</p>
                         <p class="desc" title="双面布面料,风琴口袋,反光印花,立体剪裁">双面布面料,风琴口袋,反光印花,立体剪裁</p>
@@ -129,7 +136,7 @@
                     </div>
                 </div>
                 <div class="list-box">
-                    <a href="javascript:;"><img src="/images/list3.jpg" alt=""></a>
+                    <a href="/html/detail.html"><img src="/images/list3.jpg" alt=""></a>
                     <div class="common-box">
                         <p class="info" title="贝昂无耗材空气净化器KJ800F-X7S(M)白色">贝昂无耗材空气净化器</p>
                         <p class="desc" title="来自硅谷，新装除醛优选，甲醛检测，CADR甲醛537m³/h超过国标上限，除醛除霾双高效。">来自硅谷，新装除醛优选，甲醛检测...</p>
@@ -139,7 +146,7 @@
                     </div>
                 </div>
                 <div class="list-box">
-                    <a href="javascript:;"><img src="/images/list4.jpg" alt=""></a>
+                    <a href="/html/detail.html"><img src="/images/list4.jpg" alt=""></a>
                     <div class="common-box">
                         <p class="info" title="跟着绘本游世界 42册">跟着绘本游世界 42册</p>
                         <p class="desc" title="图文并茂，寓教于乐，传承传统文化。含《跟着课本游中国 世界》30册，《原来这就是二十四节气》12册。">图文并茂，寓教于乐，传承传统文化...</p>

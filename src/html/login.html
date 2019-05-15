@@ -20,23 +20,33 @@
             <form action="">
                 <div class="user">
                     <!-- 用户名 -->
-                    <input type="text"  class="name" placeholder="邮箱/手机号/小米ID">
+                    <input type="text"  class="name" id="username" placeholder="邮箱/手机号/小米ID">
                     <!-- 密码 -->
                     <input type="password"  class="password" placeholder="密码">
                 </div>
+
                 <!-- 登录 -->
-                <input type="submit" value="登录" class="btn"> 
+                <input type="submit" value="登录" class="btn" id="login-btn"> 
                 <div class="login-mode">
+                    
                     <!-- 手机短信登录/注册 -->
                     <a href="/html/register.html" class="phone-register">手机短信登录/注册</a>
+
                     <!-- 立即注册 -->
                     <div class="in-out">
                         <a href="/html/register.html">立即注册</a><span> |</span>
                         <a href="javascript:;">忘记密码？</a>
                     </div>
+
+                    <div class="free">
+                        <input id="remember" type="checkbox">
+                        <label for="remember">十天免登陆</label>
+                    </div>
+
                     <fieldset class="other">
                         <legend class="other-login">其他方式登陆</legend>
                     </fieldset>
+
                     <img src="/images/net.png" alt="">
                 </div>
             </form>
@@ -50,7 +60,7 @@
                 <li><a href="">繁体</a></li><span>|</span>
                 <li><a href="">English</a></li><span>|</span>
                 <li><a href="">常见问题</a></li><span>|</span>
-                <li><a href="">隐私政策</a></li><span>|</span>
+                <li><a href="">隐私政策</a></li>
             </ul>
         </div>
         <div class="list-bottom">

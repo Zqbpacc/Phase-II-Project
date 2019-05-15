@@ -1,0 +1,302 @@
+@import "module/base.scss";
+@import "module/header.scss";
+@import "module/footer.scss";
+main{
+    
+    border-top: 1px solid #e7e7e7;
+    .main-container{
+        width: 1080px;
+        height: 530px;
+        margin: 0 auto;  
+    
+        .express{
+            height: 77px;
+            span{
+                font-size: 13px;
+                color: #000;
+                line-height: 77px;
+                margin-right: 5px;
+                a{color: #000;}
+            }
+            a{color: #999;text-decoration: none;}
+            a:hover{
+                color:#845f3f;
+                text-decoration: none;
+            }
+        }
+        .cart-table{
+            height: 452px;
+            .title{
+                height: 42px;
+                line-height: 40px;
+                background-color: #fafafa;
+                color: #999;
+                margin-bottom: 3px;
+                .icons{
+                    display: inline-block;
+                    background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                }
+                .icons-check{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -490px;
+                }
+                .icon-select{
+                    display: inline-block;
+                    margin-left: 7px;
+                    margin-right: 20px;
+                    vertical-align: middle;
+                }
+                .icons-check-ac{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -402px;
+                }
+                .all{
+                    width: 130px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                .product{
+                    width: 315px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                .price{
+                    width: 200px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                .num{
+                    width: 205px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                .total{
+                    width: 125px;
+                    height: 40px;
+                    display: inline-block;
+                }
+                .edit{
+                    width: 28px;
+                    height: 40px;
+                    display: inline-block;
+                }
+            }
+            .yp{
+                height: 84px;
+                border-bottom: 1px solid #e7e7e7;
+                line-height: 110px;
+                .icons{
+                    display: inline-block;
+                    background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                }
+                .icons-check{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -490px;
+                }
+                .icon-select{
+                    display: inline-block;
+                    margin-left: 7px;
+                    margin-right: 20px;
+                    vertical-align: middle;
+                }
+                .icons-check-ac{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -402px;
+                }
+                span{
+                    margin-left: 15px;
+                }
+            }
+            .cart-item{
+                height: 142px;
+                margin-top: 40px;
+                border-bottom: 1px solid #e7e7e7;
+                display: flex;
+                align-items: center;
+                .icons{
+                    display: inline-block;
+                    background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                }
+                .icons-check{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -490px;
+                }
+                .icon-select{
+                    display: inline-block;
+                    margin-left: 7px;
+                    margin-right: 20px;
+                    vertical-align: middle;
+                }
+                .icons-check-ac{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -402px;
+                }
+                .cart-img{
+                    width: 120px;
+                    height: 120px;
+                }
+                .text{
+                    width: 320px;
+                    height: 142px;
+                    .p{
+                        display: block;
+                        height: 142px;
+                        line-height: 88px;
+                        padding: 27px 90px 0px 5px;
+                        box-sizing: border-box;
+                        color: #000;
+                    }
+                    a:hover{color:#845f3f}
+                }
+                .num{
+                    width: 260px;
+                    height: 72px;
+                    .num-add{
+                        display: inline-block;
+                        box-sizing: border-box;
+                        height: 32px;
+                        width: 134px;
+                        border: 1px solid #b3b3b3;
+                        margin-left: 80px;
+                        margin-top: 20px;
+                        .icons{
+                            display: inline-block;
+                            background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                        }
+                        .icons-reduce{
+                            width: 30px;
+                            height: 30px;
+                            float: left;
+                            background-position: 0 -1390px;
+                        }
+                        .txt{
+                            border-left: 1px solid #b3b3b3;
+                            border-right: 1px solid #b3b3b3;
+                            float: left;
+                            width: 72px;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                        }
+                        .icons-add{
+                            width: 30px;
+                            height: 30px;
+                            float: left;
+                            background-position: 0 -1050px;
+                        }
+                    }
+                }
+                .cart-price{
+                    width: 120px;
+                    height: 72px;
+                    margin-left: 65px;
+                    span{
+                        text-align: center;
+                        line-height: 72px;
+                        color: #c00000;
+                    }
+                }
+                div{
+                    width: 15px;
+                    height: 72px;
+                    line-height: 72px;
+                    margin-left: 8px;
+                    .icons{
+                        width: 13px;
+                        height: 13px;
+                        background-position: 0 -119px;
+                        display: inline-block;
+                        background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                    }
+                } 
+            }
+            .foot{
+                height: 80px;
+                background-color: #fafafa;
+                font-size: 18px;
+                width: 1080px;
+                height: 80px;
+                margin-top: 80px;
+                margin-bottom: 25px;
+                position: relative;
+                .icons{
+                    display: inline-block;
+                    line-height: 80px;
+                    background-image: url(https://shop.io.mi-img.com/static/h5/static3/media/yp-icons.2bf57ccf.png);
+                }
+                .icons-check{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -490px;
+                }
+                .icon-select{
+                    display: inline-block;
+                    margin-left: 7px;
+                    margin-right: 20px;
+                    vertical-align: middle;
+                }
+                .icons-check-ac{
+                    width: 18px;
+                    height: 18px;
+                    background-position: 0 -402px;
+                }
+                .sel{
+                    margin-left: 20px;
+                    display: inline-block;
+                    line-height: 80px;
+                }
+                .total{
+                    display: inline-block;
+                    position: absolute;
+                    right: 230px;
+                    bottom: 0;
+                    width: 200px;
+                    height: 80px;
+                    .tol{
+                        line-height: 50px;
+                        margin-top: 10px;
+                        b{
+                            font-weight: 500;
+                            font-size: 20px;
+                        }
+                        span{
+                            color: #c00000;
+                            font-size: 20px;
+                        }
+                    }
+                    .p{
+                        font-size: 12px;
+                        color: #999;
+                        line-height: 15px;
+                        display: block;
+                    }
+                }
+                div{
+                    display: inline;
+                    .Settlement{
+                        float: right;
+                        width: 200px;
+                        height: 80px;
+                        line-height: 80px;
+                        text-align: center;
+                        background-color: #a9010d;
+                        color: #fff;
+                        font-size: 20px;
+                        
+                    }
+                    a:hover{
+                        background: #c90214;
+                        text-decoration: none;
+                    }
+                }
+                
+            }
+        }
+    }
+}

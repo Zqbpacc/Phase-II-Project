@@ -63,6 +63,7 @@ body{
                 height: 42px;
                 border: .5px solid #e0e0e0;
                 float: right;
+                border-left: none;
                 box-sizing: border-box;
                 img{
                     width: 17px;
@@ -86,6 +87,7 @@ body{
                 height: 42px;
                 float: left;
                 border: .5px solid #e0e0e0;
+                border-right: none;
                 span{
                     color: #333;
                     font-weight: normal;
@@ -107,6 +109,22 @@ body{
                 }
             }
         }
+
+        .user{
+            width: 332px;
+            height: 124px;
+            input{
+                border: 1px solid #e0e0e0;
+                width: 332px;
+                height: 50px;
+                display: block;
+                margin-bottom: 14px;
+                padding-left: 15px;
+                box-sizing: border-box;
+                .name{margin-left: 15px;}
+            }
+        }
+
         .registration{
             width: 332px;
             height: 42px;
