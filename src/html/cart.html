@@ -18,7 +18,8 @@
             <div class="cart-table">
 
                 <div class="title">
-                    <a href="javascript:;" class="icons icons-check icons-check-ac icon-select"></a>
+                    <a href="javascript:;"  id="all" class="icons icons-check icons-check-ac icon-select"></a>
+                    
                     <span class="all">全选</span>
                     <span class="product">商品信息</span>
                     <span class="price">单价</span>
@@ -28,7 +29,7 @@
                 </div>
 
                 <div class="yp">
-                    <a href="javascript:;" class="icons icons-check icons-check-ac icon-select"></a>
+                    <a href="javascript:;"  id="all" class="icons icons-check icons-check-ac icon-select"></a>
                     <span>有品精选</span>
                 </div>
                 
@@ -36,40 +37,46 @@
                 <div id="cart" class="cart"></div>
                 <script type="text/html" id="cart-template">
                     <div class="cart-item">
-                        <a href="javascript:;" class="icons icons-check icons-check-ac icon-select"></a>
+                        <a href="javascript:;" id="input" class="icons icons-check icons-check-ac icon-select"></a>
                         <img src="{{data.image[0]}}" class="cart-img">
                         <div class="text">
                             <a href="javascript:;" class="p">{{data.text}}</a>
                         </div>
+                        <!-- 单价 -->
                         <span>￥</span><span>{{data.price}}</span>
+                        <!-- 数量 -->
                         <div class="num">
                             <div class="num-add">
                                 <a href="javascript:;" class="icons icons-reduce"></a>
-                                <span class="txt">1</span>
+                                <span class="txt" id="cart-num">1</span>
                                 <a href="javascript:;" class="icons icons-add"></a>
                             </div>
                         </div>
+                        <!-- 金额 -->
                         <div class="cart-price">
                             <span>￥</span><span>{{data.price}}</span>
                         </div>
+                        <!-- 操作 -->
                         <div>
-                            <a href="javascript:;" class="icons icons-add"></a>  
+                            <a href="javascript:;" id="del" class="icons icons-add"></a>  
                         </div>
                     </div>
                     
                     <div class="foot">
-                        <a href="javascript:;" class="icons icons-check icons-check-ac icon-select"></a>
+                        <a href="javascript:;"  id="all" class="icons icons-check icons-check-ac icon-select"></a>
                         <span class="all">全选</span>
+
                         <div class="sel">
-                        <span>已选</span><span id="num">1</span><span>件</span> 
+                            <span>已选</span><span id="num">1</span><span>件</span> 
                         </div>
+
                         <div class="total">
                             <span class="tol">
-                            <b>合计：</b>
+                            <span>合计：</span>
                             <span>￥</span>
-                            <span>{{data.price}}</span></span>
-                            <span class="p">总额：<span>￥</span><span>{{data.price}}</span></span>
+                            <span>{{data.price}}</span>
                         </div>
+
                         <div>
                             <a href="javascript:;" class="Settlement">去结算</a>
                         </div>

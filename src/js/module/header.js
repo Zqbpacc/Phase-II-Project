@@ -25,16 +25,16 @@ define(['jquery'], $ =>{
             })
         },
         calcCartNum(){
-            // let cart = localStorage.getItem('cart');
-            // let num = 0;
-            // if(cart){
-            //     cart.JSON.parse(cart);
-            //     num = cart.reduce((n,shop) =>{
-            //         n += shop.num;
-            //         return n;
-            //     },0)
-            // }
-            // $('#car-num').html(num);
+            let cart = localStorage.getItem('cart');
+            let num = 0;
+            if(cart){
+                cart.JSON.parse(cart);
+                num = cart.reduce((n,shop) =>{
+                    n += shop.num;
+                    return n;
+                },0)
+            }
+            $('#car-num').html(num);
             
         }
     })

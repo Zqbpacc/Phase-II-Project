@@ -2,6 +2,8 @@ require(['require.config'],() =>{
     require(['url','template','header','footer'],(url,template) =>{
         class Cart{
             constructor(){
+                this.all = $('#all');
+                this.checks = $('#input');
                 this.init();
             }
             init(){
@@ -15,9 +17,11 @@ require(['require.config'],() =>{
                     }
                 })
             }
-            render (data) {
-                $("#cart").html(template("cart-template", { data }));
+            render(data){
+                $("#cart").html(template("cart-template", {data}));
             }
+            
+
         }
         new Cart;
     })

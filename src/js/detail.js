@@ -43,7 +43,7 @@ require(['require.config'],() =>{
                         },
                         onEnd: function (){
                             this.destroy();
-                            
+                            header.calcCartNum();
                         }
                     });
 
